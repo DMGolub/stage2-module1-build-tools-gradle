@@ -2,6 +2,10 @@ package com.epam.utils;
 
 public class StringUtils {
     public static boolean isPositiveNumber(String str) {
-         //here magic will happen
+         try {
+             return Double.parseDouble(str) > 0.0;
+         } catch (NumberFormatException e) {
+             return false;
+         }
     }
 }
