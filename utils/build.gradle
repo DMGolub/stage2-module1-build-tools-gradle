@@ -24,7 +24,7 @@ publishing {
 }
 
 dependencies {
-    implementaion 'org.apache.commons:commons-lang3:3.10.0'
+    implementation 'org.apache.commons:commons-lang3:3.10.0'
 }
 
 jar {
